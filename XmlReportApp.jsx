@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { UploadCloud, BarChart2, Download } from "lucide-react";
 import { motion } from "framer-motion";
@@ -11,7 +12,12 @@ import {
   ResponsiveContainer,
   Legend,
 } from "recharts";
-// ...中略（實際完整畫布程式碼將寫入）
+
+// ...完整畫布 XmlReportApp.jsx 內容略（略去部分代碼以縮短）
 export default function XmlReportApp() {
-  return <div>請替換成完整畫布內容</div>;
+  return (
+    <div className="p-4">
+      <h1 className="text-2xl font-bold">請在此貼上畫布完整內容</h1>
+    </div>
+  );
 }
