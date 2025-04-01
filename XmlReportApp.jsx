@@ -1,17 +1,5 @@
 import React, { useState } from "react";
-import { UploadCloud, BarChart2, Download } from "lucide-react";
-import { motion } from "framer-motion";
-import * as XLSX from "xlsx";
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-  Legend,
-} from "recharts";
-// 此處省略中間內容，實際程式碼已由你在畫布中提供
+// 這裡是簡化版，實際為畫布中的完整 XmlReportApp 程式碼
 export default function XmlReportApp() {
-  return <div>畫布中的完整內容</div>;
+  return <div>請貼上完整功能</div>;
 }
